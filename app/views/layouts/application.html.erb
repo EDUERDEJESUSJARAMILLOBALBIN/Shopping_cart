@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <% unless current_controller_action('orderables', 'index') %>
+     <%= render partial: "cart/cart" if @render_cart %>
+    <% end %>
     <%= yield %>
   </body>
 </html>

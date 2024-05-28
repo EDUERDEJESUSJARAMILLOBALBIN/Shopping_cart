@@ -6,6 +6,8 @@
 
 # Ignore bundler config.
 /.bundle
+#.env for evit share names
+.env
 
 # Ignore all logfiles and tempfiles.
 /log/*
